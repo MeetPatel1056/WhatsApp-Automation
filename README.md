@@ -114,10 +114,36 @@ Appium Inspector is a graphical tool that helps you inspect mobile apps for elem
     - Create a `usernames.txt` file in the same directory as your script.
     - Add the names of the WhatsApp groups, each on a new line.
 
-3. **Run the script:**
+1. Enter Group Names using Tkinter Script
+You can use a Tkinter-based GUI to enter the WhatsApp group names that you want to process. This script allows you to enter the names through a simple interface, and it will save them to the usernames.txt file.
 
-    ```bash
-    python whatsapp_automation.py
+Run the Tkinter script:
+
+tkinter_script.exe
+Enter the WhatsApp group names in the text area, each on a new line.
+
+Click the "Save" button to save the group names to usernames.txt.
+
+2. Select Data for Processing using Tkinter
+A Tkinter-based GUI allows you to select the data that you want to process. This is useful if you want to selectively process certain groups or specific types of data and it file run automation.py programme automatically
+
+Run the Tkinter selection script:
+
+tkinter_print.exe
+Select the group names or data types that you want to process.
+
+Click the "Process" button to initiate the automation script for the selected items.
+
+3. Extract Google Drive Zip Files
+If your exported chat history from WhatsApp Business is in a zip format, you can use this script to extract and convert the zip files into readable text files.
+
+Place the Google Drive zip files in the appropriate directory.
+
+Run the extraction script:
+
+extract_file.exe
+
+The script will extract the contents and convert them to readable text files, which will be saved in the output directory.
     ```
 
     The script will start processing each group, exporting the chat history to Google Drive, and clearing the chat.
